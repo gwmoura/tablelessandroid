@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tableless</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_feedback">Feedback</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string-array name="links_array">
+        <item>Posts</item>
+        <item>Loja</item>
+        <item>Nosso Evento</item>
+        <item>Serviços</item>
+        <item>Contato</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView 
+   	android:text="Este é o lugar para falar conosco. Conte-nos sobre seu projeto, nos peça um orçamento, sugira algo para o blog. Vá fundo, nos envie um email!"
+    android:id="@+id/textViewDescription"
+	android:layout_width="match_parent"
+	android:layout_marginTop="20dp"
+	android:layout_height="wrap_content"
+	android:textSize="16sp"
+	android:textStyle="bold"
+	android:background="#000000"
+	android:textColor="#fff"/>
+	<Button
+	   	android:text="contato@tableless.com.br"
+	    android:id="@+id/buttonEmail"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#000000"
+		android:onClick="sendMail"
+		android:textColor="#fff"/>
+	<TextView
+	   	android:text="REDES SOCIAIS"
+	   	android:textSize="16sp"
+	   	android:padding="10px"
+	   	android:textAlignment="center"
+	    android:id="@+id/textViewRedes"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#F61B3A"
+		android:textStyle="bold"
+		android:textColor="#fff"/>
+	<Button
+	   	android:text="Twitter"
+	    android:id="@+id/textViewTwitter"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#000000"
+		android:textColor="#fff"/>
+	<Button
+	   	android:text="Facebook"
+	    android:id="@+id/textViewTwitter"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#000000"
+		android:textColor="#fff"/>
+	
+</LinearLayout>

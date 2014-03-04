@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+	 <TextView
+		   	android:text="Posts Recentes"
+		   	android:textSize="16sp"
+		   	android:padding="10px"
+		   	android:textAlignment="center"
+		    android:id="@+id/textViewPostRecentes"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#F61B3A"
+			android:textStyle="bold"
+			android:textColor="#fff"/>
+	<ListView
+	   	android:text="Post"
+	    android:id="@+id/listViewPost"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#000000"
+		android:gravity="center"/>
+</LinearLayout>
